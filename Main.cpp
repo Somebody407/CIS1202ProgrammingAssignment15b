@@ -1,20 +1,19 @@
-// ConsoleApplication1.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+// somebody407 (would rather not use my real name since its public :/)
+// CIS 1202 800
+// July 31, 2024
 
 #include <iostream>
+#include "Half.h"
 
-int main()
-{
-    std::cout << "Hello World!\n";
+int main() {
+    // Test with integer values
+    double a = 7.0;
+    float b = 5.0f;
+    int c = 3;
+
+    cout << "Half of " << a << " is " << half(a) << endl;
+    cout << "Half of " << b << " is " << half(b) <<  endl;
+    cout << "Half of " << c << " is " << half(c) << endl;
+
+    return 0;
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
